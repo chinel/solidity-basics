@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SendMoneyExample.sol": "Send"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SendMoneyExample.sol": {
+			"keccak256": "0x248c6a9527cf0d1e5807464f6bd399bbc29bdd3da3e863139a8a605541b2db93",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://888f09212ac7e320543f7f3fe63d875fa54dc2462af2e8381ed657d23faf757b",
+				"dweb:/ipfs/Qmeu5XbPvmVH5P9KSCwPPtRXxuSHLHSM1giicqETJJFpNr"
+			]
+		}
+	},
+	"version": 1
+}

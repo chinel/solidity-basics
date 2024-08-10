@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "myBoolean",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_mybool",
+						"type": "bool"
+					}
+				],
+				"name": "setMyBoolean",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleBoolean.sol": "ExampleBoolean"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleBoolean.sol": {
+			"keccak256": "0x6bbf19a3a897cb81acadf2824b90bca9c59cf19cacf72e3229e16d2d05a35809",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a7836a4e8a2632f04e7377d880ee5c6a389c2eeb7d1ee188dcbbbf4e6977f589",
+				"dweb:/ipfs/QmamdkGxGwFPxpKJiSYT3soDTUGPrRKuFGFqod7LzXopsb"
+			]
+		}
+	},
+	"version": 1
+}
