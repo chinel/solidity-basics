@@ -54,6 +54,29 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_key1",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_key2",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_value",
+						"type": "bool"
+					}
+				],
+				"name": "setUintUintBoolMapping",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "_index",
 						"type": "uint256"
 					}
@@ -61,6 +84,30 @@
 				"name": "setValue",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "uintUintBoolMapping",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -92,11 +139,11 @@
 	},
 	"sources": {
 		"contracts/ExampleMappings.sol": {
-			"keccak256": "0x972e18aeec749532ff22f18d613d3b6782a9bb44b4fa9d1c3c8bbfce6eb93529",
+			"keccak256": "0x4f6c017331312f72fde53e0a82587c809e06d65cb3192956eb95aa6509039253",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a03000170004e58017b667328dec3bf20076e5019635bbc4c6e878849a2cb7da",
-				"dweb:/ipfs/QmfQTrXbGdVFn67yVD3gqtW41MeJ7f7KZhmzzd4ZsJWfz9"
+				"bzz-raw://50734df64e9bfc7866d41b4b25fee88bde02228a256298ece9a89beab7d89c57",
+				"dweb:/ipfs/Qmag74F3sUYYq9VDgAqn68qegfpCdPiX5kBiVp5TFpEBCp"
 			]
 		}
 	},
