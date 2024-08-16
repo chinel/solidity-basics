@@ -13,8 +13,10 @@ contract ExampleMappingWithdrawals {
    }
 
    function withdrawAllMoney (address payable _to) public {
-       _to.transfer(balanceReceived[msg.sender]);
+    //this way you cannot withdraw more money from the smart contract than you put in
+       uint balanceToSendOut = balanceReceived[msg.sender];
        balanceReceived[msg.sender] = 0;
+       _to.transfer(balanceToSendOut);
    }
 
 }
