@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleStruct.sol": "Walle"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleStruct.sol": {
+			"keccak256": "0x0808933d78851430a27b56a190f1f4419996cbb1f9f09812ebed890c4d11b2e3",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4108d0861d72d51d468c1b313430ec4e5d3d45f83c6cf7578eadc86b972a75b5",
+				"dweb:/ipfs/QmansTLaGcrN24hVTdVGuXPS6suMGAz8D1UZhRDSzXLHad"
+			]
+		}
+	},
+	"version": 1
+}

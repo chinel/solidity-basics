@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "payContract",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payment",
+				"outputs": [
+					{
+						"internalType": "contract PaymentReceived",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ExampleSubcontract.sol": "Wallet"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ExampleSubcontract.sol": {
+			"keccak256": "0x47b376ddf38d811a40b74ff440d139ea20e1d47ce6d9a4ee21092123c0b815da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://682a20b1ab59bf5ad5ed0b3625d35ccac951d8f1bd31cb0656ce0a3643dcc219",
+				"dweb:/ipfs/QmYW9yrvkw2t62fxqtuHrSZ8xqMoWPWWsi4JPNvWhN5MHt"
+			]
+		}
+	},
+	"version": 1
+}
