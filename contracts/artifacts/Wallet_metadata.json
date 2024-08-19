@@ -17,9 +17,14 @@
 				"name": "payment",
 				"outputs": [
 					{
-						"internalType": "contract PaymentReceived",
-						"name": "",
+						"internalType": "address",
+						"name": "from",
 						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -39,7 +44,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleSubcontract.sol": "Wallet"
+			"contracts/ExampleStruct.sol": "Wallet"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +58,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleSubcontract.sol": {
-			"keccak256": "0x47b376ddf38d811a40b74ff440d139ea20e1d47ce6d9a4ee21092123c0b815da",
+		"contracts/ExampleStruct.sol": {
+			"keccak256": "0xfda3b18c4fbadfc43f9e4c6475cad94731c4287a9bf0f8d1d6e9dc5c317cf3c2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://682a20b1ab59bf5ad5ed0b3625d35ccac951d8f1bd31cb0656ce0a3643dcc219",
-				"dweb:/ipfs/QmYW9yrvkw2t62fxqtuHrSZ8xqMoWPWWsi4JPNvWhN5MHt"
+				"bzz-raw://187790a309bb4d8ab199bdf45667a3f30f6558dae2f9779ffd964ba66ac52133",
+				"dweb:/ipfs/QmUFL6JhBzUfceVCqADqFTXDhqFNLMwqTsMMnZW44DUnWT"
 			]
 		}
 	},
