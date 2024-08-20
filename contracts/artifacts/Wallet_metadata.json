@@ -6,28 +6,47 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "payContract",
+				"name": "depositMoney",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "payment",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "address",
-						"name": "from",
+						"internalType": "address payable",
+						"name": "_to",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "withdrawMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -44,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleStruct.sol": "Wallet"
+			"contracts/ExampleMappingStruct.sol": "Wallet"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -58,12 +77,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleStruct.sol": {
-			"keccak256": "0xfda3b18c4fbadfc43f9e4c6475cad94731c4287a9bf0f8d1d6e9dc5c317cf3c2",
+		"contracts/ExampleMappingStruct.sol": {
+			"keccak256": "0x1c968f6c93eed0b7c9a1bcb734b7960e18aee9f760196961310ad89273d0bcdf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://187790a309bb4d8ab199bdf45667a3f30f6558dae2f9779ffd964ba66ac52133",
-				"dweb:/ipfs/QmUFL6JhBzUfceVCqADqFTXDhqFNLMwqTsMMnZW44DUnWT"
+				"bzz-raw://d0d32013ac61a7205a26246fcda5ad538780abe7827f8f496fd3acd65ccd4092",
+				"dweb:/ipfs/QmTSKhbmyMSyiNdAP31QJrfH2d5o53R8AWnSSVSxohLgkv"
 			]
 		}
 	},
