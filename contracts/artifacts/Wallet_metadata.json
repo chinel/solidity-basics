@@ -13,11 +13,21 @@
 						"type": "address"
 					}
 				],
-				"name": "balance",
+				"name": "balances",
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "totalBalance",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numDeposit",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numWithdrawals",
 						"type": "uint256"
 					}
 				],
@@ -78,11 +88,11 @@
 	},
 	"sources": {
 		"contracts/ExampleMappingStruct.sol": {
-			"keccak256": "0x1c968f6c93eed0b7c9a1bcb734b7960e18aee9f760196961310ad89273d0bcdf",
+			"keccak256": "0x2b3c084d0779387eef9127050609a19768bd4bf29b0119d89f72d6e5ad7e8585",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d0d32013ac61a7205a26246fcda5ad538780abe7827f8f496fd3acd65ccd4092",
-				"dweb:/ipfs/QmTSKhbmyMSyiNdAP31QJrfH2d5o53R8AWnSSVSxohLgkv"
+				"bzz-raw://b095f4a16c173ffc9fed5d7f5d62256b9935399ce110531ef15e19d847c2c848",
+				"dweb:/ipfs/QmXMsyxkSd53XZzW3CAxCZue6VhuUDJFEgaBGUVEf8emTg"
 			]
 		}
 	},
