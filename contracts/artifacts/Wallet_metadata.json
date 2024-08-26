@@ -44,6 +44,42 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_numDeposits",
+						"type": "uint256"
+					}
+				],
+				"name": "getDepositNum",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "amount",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timestamp",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct Wallet.Transaction",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address payable",
 						"name": "_to",
 						"type": "address"
@@ -88,11 +124,11 @@
 	},
 	"sources": {
 		"contracts/ExampleMappingStruct.sol": {
-			"keccak256": "0x2b3c084d0779387eef9127050609a19768bd4bf29b0119d89f72d6e5ad7e8585",
+			"keccak256": "0xc5a512240327dfed836df9d814286bc63f39ccbfb1bf06e59b51f09354b37b8f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b095f4a16c173ffc9fed5d7f5d62256b9935399ce110531ef15e19d847c2c848",
-				"dweb:/ipfs/QmXMsyxkSd53XZzW3CAxCZue6VhuUDJFEgaBGUVEf8emTg"
+				"bzz-raw://320fa16d1749569d997f735ece87d9bc9b911ad54a3e59b408d002056b0e4a91",
+				"dweb:/ipfs/Qme82uVnrZfhRGLGoXZdiFqNobj5iX15L9GLv1zKNePh5J"
 			]
 		}
 	},
