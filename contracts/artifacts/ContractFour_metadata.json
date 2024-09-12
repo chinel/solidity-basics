@@ -6,24 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "payContract",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "payment",
-				"outputs": [
+				"inputs": [
 					{
-						"internalType": "contract PaymentReceived",
-						"name": "",
+						"internalType": "address",
+						"name": "_contractOne",
 						"type": "address"
 					}
 				],
-				"stateMutability": "view",
+				"name": "depositContractOne",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -39,7 +36,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/ExampleSubcontract.sol": "Wallet"
+			"contracts/ExampleContractCall.sol": "ContractFour"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -53,12 +50,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/ExampleSubcontract.sol": {
-			"keccak256": "0x47b376ddf38d811a40b74ff440d139ea20e1d47ce6d9a4ee21092123c0b815da",
+		"contracts/ExampleContractCall.sol": {
+			"keccak256": "0xb949363dd9cc2c3ceb0951c99cbfa38ca3f35a1c19c270736bdcfddf1872b3d0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://682a20b1ab59bf5ad5ed0b3625d35ccac951d8f1bd31cb0656ce0a3643dcc219",
-				"dweb:/ipfs/QmYW9yrvkw2t62fxqtuHrSZ8xqMoWPWWsi4JPNvWhN5MHt"
+				"bzz-raw://7e289d5c4874bfab80f0f3948acfe305d4978383823083711c05151ed04bf333",
+				"dweb:/ipfs/QmXoSMzEs7h2UCWzxxm6ufs2dfhr5KME8GUN22jS6RsqiP"
 			]
 		}
 	},
