@@ -30,6 +30,38 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "confirmationsFromGuardiansForReset",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "guardians",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -51,6 +83,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address payable",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "proposeNewOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address",
 						"name": "_for",
 						"type": "address"
@@ -62,6 +107,24 @@
 					}
 				],
 				"name": "setAllowance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_guardian",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "_isGuardian",
+						"type": "bool"
+					}
+				],
+				"name": "setGuardian",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -128,11 +191,11 @@
 	},
 	"sources": {
 		"contracts/SmartContractWallet.sol": {
-			"keccak256": "0x9207c5a422f714ad4df7aaa6aa21c5b6634d9b11a636d66806c8ab2b8c9d7d05",
+			"keccak256": "0xb15a35479b37033f6f0da0ff44b98eb7b52e538a278293275eb655a38bf19179",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f5485f3b231f592202fdfc303fa0694c45904af2a74bfd2330f8cf1ce5142768",
-				"dweb:/ipfs/QmPq4AaYU3BebYLcHqZkkVVfYmSRez2xVyzkDikhCsCQbu"
+				"bzz-raw://65b862757112b0e505372d158808ee6581ea32af38fd415e49c4bad9007eae0c",
+				"dweb:/ipfs/QmVT9cEjh1Ts2njYCN4GL9RzLEDD4rSMAcS19T7ht71f49"
 			]
 		}
 	},
