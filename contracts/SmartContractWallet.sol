@@ -1,12 +1,23 @@
 // SPDX-License-Identifier: MIT
 pragma solidity 0.8.26;
 
+contract Consumer{
+   function getBalance() public view returns(uint){
+      return address(this).balance;
+   }
+
+   function deposit () public payable{
+
+   }
+}
+
 contract SmartContracWallet{
- address payable owner;
+ address payable public  owner;
  mapping(address => uint) public allowance;
  mapping (address => bool) public isAllowedToSend;
  mapping(address => bool) public guardians;
  address payable nextOwner;
+ mapping(address => mapping(address => bool)) public nextOwnerGuardianVotedBool;
  uint guardiansResetCount;
  uint public constant confirmationsFromGuardiansForReset = 3;
 
@@ -24,6 +35,7 @@ contract SmartContracWallet{
 
  function proposeNewOwner(address payable _newOwner) public{
   require(guardians[msg.sender],"You are not guardian of this wallet, aborting!!");
+  require(nextOwnerGuardianVotedBool[_newOwner][msg.sender] == false, "You already voted, aborting");
   if(_newOwner != owner){
    nextOwner = _newOwner;
    guardiansResetCount = 0;

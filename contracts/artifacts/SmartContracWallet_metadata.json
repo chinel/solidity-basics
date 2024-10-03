@@ -83,6 +83,43 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "nextOwnerGuardianVotedBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "address payable",
 						"name": "_newOwner",
 						"type": "address"
@@ -191,11 +228,11 @@
 	},
 	"sources": {
 		"contracts/SmartContractWallet.sol": {
-			"keccak256": "0xb15a35479b37033f6f0da0ff44b98eb7b52e538a278293275eb655a38bf19179",
+			"keccak256": "0x8b33447c7198f272ad1008ea80818e45018db0f388298b592d498496a663ffe1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://65b862757112b0e505372d158808ee6581ea32af38fd415e49c4bad9007eae0c",
-				"dweb:/ipfs/QmVT9cEjh1Ts2njYCN4GL9RzLEDD4rSMAcS19T7ht71f49"
+				"bzz-raw://e6435744528cb878f96e059890e9a0ba909ae5d061bb9550f94d8aef07bac063",
+				"dweb:/ipfs/Qma7AqyDHiPosdbq6dtRMfXHnHTmwsNpeAuqWxJ6fsDdoH"
 			]
 		}
 	},
