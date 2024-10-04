@@ -228,11 +228,11 @@
 	},
 	"sources": {
 		"contracts/SmartContractWallet.sol": {
-			"keccak256": "0xf81baf8679cfefe63516db987d86751ea5a8ca3c811e7c7de83431e89a131bc5",
+			"keccak256": "0xeeffb5719d7a3600d6772f52354cf91f6244df43033c41f69726c7f2d89843dd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e306ef0138b8ae758d78992aa54111359b2d90eee2a440b5934efbcdd28a14cf",
-				"dweb:/ipfs/QmWtHnxNuLub4tLCJCo5bVuYJx4D9NYWx2YX4vaz8KAcKe"
+				"bzz-raw://c547bedc1ee26f3a70e230eadd29b67d4b0a559efc73665cfa290c42e626651e",
+				"dweb:/ipfs/QmT91Y29eJ3yBysQN4X62rT5JYvusxuu5b1Bm2UFborZ6J"
 			]
 		}
 	},

@@ -62,6 +62,7 @@ contract SmartContracWallet{
 
  }
 
+//the payload can be copied from the input value of the Consumer contract when your run the deposit function, you will see the byte representation of the function input at the bottom of the IDE
 function transfer(address payable _to, uint _amount, bytes memory _payload) public returns(bytes memory){
     require(msg.sender == owner, "You are not the owner, aborting!!");
     if(msg.sender != owner){
