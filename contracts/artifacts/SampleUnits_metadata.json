@@ -4,13 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -24,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Ownable.sol": "Owner"
+			"contracts/SampleUnits.sol": "SampleUnits"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -38,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Ownable.sol": {
-			"keccak256": "0xe2ff2493af67a39881bc41ca9ca6f8d765e96c317af54c7ba2cbb041d0d27304",
+		"contracts/SampleUnits.sol": {
+			"keccak256": "0xab3c5cd4eb6b0efbed90ec50434794c62bd1d2ee474340d004c5519b435f266f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://38cd2f62b25d555689ff0d26ed646c7c9f211dd8fe888f99eaed93dcc2f80fc0",
-				"dweb:/ipfs/QmQmefmYtcyVnt1mZexDuaP2LtrWwU9yu4AHbbvFNfLmUE"
+				"bzz-raw://be6f76fb34b969726b31d4585720e39022efc7c82711c142d193d815d39be38e",
+				"dweb:/ipfs/QmaCTkdRA1Cq82e53mfwnfqYoskVHYSEWuHxoKSwLZTq86"
 			]
 		}
 	},
