@@ -7,12 +7,23 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "ourString",
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -21,12 +32,36 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_updateString",
-						"type": "string"
+						"internalType": "address",
+						"name": "_adr",
+						"type": "address"
 					}
 				],
-				"name": "updateOurString",
+				"name": "exampleFunction",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -45,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyContract.sol": "MyContract"
+			"contracts/SampleVerification.sol": "MyContract"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyContract.sol": {
-			"keccak256": "0xb785488e6a758e6a4fded15cf4f2aeb717b3ecf3af5373d9bdd26341f5ab6e12",
+		"contracts/SampleVerification.sol": {
+			"keccak256": "0xf6d0f563202dd9b80adce32ab5b0e19a1f01fcaaba6bda08fe34435245612aee",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b6c832f7d94e169a39779c956b74f70611b7e0c5b0b63de6c384f9f127120793",
-				"dweb:/ipfs/QmekboopJ8zsQcFLdwUjjnhB4JBidTq8bhaPWSqDBHAsmH"
+				"bzz-raw://8d42c41bef18e270e1a16887e7de793fbecfc6ef687b05608fa5e25e9327d491",
+				"dweb:/ipfs/QmNaEecWJUGR69KSd78TijTP3ZPKNpxU9MiVDGJcPeeeVi"
 			]
 		}
 	},
