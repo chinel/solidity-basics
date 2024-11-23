@@ -6,18 +6,7 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "defaultAdmin",
-						"type": "address"
-					},
-					{
-						"internalType": "address",
-						"name": "minter",
-						"type": "address"
-					}
-				],
+				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -852,11 +841,11 @@
 			]
 		},
 		"contracts/SampleCoffeeToken.sol": {
-			"keccak256": "0xc00c3349aaaac34bdcf597a2f61ea88a375c509f12812828e1858e079308bcdd",
+			"keccak256": "0xc45d1a3bb7f418b60ab91e519dcbacd59de6eea54652966e1a4c1557f2fd892d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e4bb83d5c96090e7e8e5a0c39e25866377e1332d3047f7e25a211ed8865f0b9f",
-				"dweb:/ipfs/QmQ6mw7wq1RjGpAUQYa6RGXoRz4M2QyauuDqua2hfyZYsa"
+				"bzz-raw://d3787d14cf8c11d79e19739d6607c4cf42df3ef6a0efc58d5f83479a038c654a",
+				"dweb:/ipfs/QmQMoRrkc8dTTgidYr2C2GvM4kKTMFkPzUxS2CqNpcNw2z"
 			]
 		}
 	},

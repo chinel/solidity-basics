@@ -10,9 +10,9 @@ contract CoffeToken is ERC20, AccessControl {
 
     event coffeePurchased(address indexed receiver, address indexed  buyer);
 
-    constructor(address defaultAdmin, address minter) ERC20("CoffeToken", "CFE") {
-        _grantRole(DEFAULT_ADMIN_ROLE, defaultAdmin);
-        _grantRole(MINTER_ROLE, minter);
+    constructor() ERC20("CoffeToken", "CFE") {
+        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        _grantRole(MINTER_ROLE, msg.sender);
     }
 
     function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {
