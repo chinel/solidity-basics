@@ -841,11 +841,11 @@
 			]
 		},
 		"contracts/SampleCoffeeToken.sol": {
-			"keccak256": "0xc45d1a3bb7f418b60ab91e519dcbacd59de6eea54652966e1a4c1557f2fd892d",
+			"keccak256": "0x922470048f60b3d0203684f63a56607791a3c4b003e961f17509f5e83fa24826",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d3787d14cf8c11d79e19739d6607c4cf42df3ef6a0efc58d5f83479a038c654a",
-				"dweb:/ipfs/QmQMoRrkc8dTTgidYr2C2GvM4kKTMFkPzUxS2CqNpcNw2z"
+				"bzz-raw://285be16b09f7e6b9192cdf43f7bb0e82c5e73068bfa2b98fb34417d42141069d",
+				"dweb:/ipfs/QmNNZLxVsCz14faeJnxS9Bqx3KCfjrfsBgJksqSd6Pij7f"
 			]
 		}
 	},

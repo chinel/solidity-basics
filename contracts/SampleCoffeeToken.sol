@@ -16,17 +16,17 @@ contract CoffeToken is ERC20, AccessControl {
     }
 
     function mint(address to, uint256 amount) public onlyRole(MINTER_ROLE) {
-        _mint(to, amount);
+        _mint(to, amount * 10 ** decimals());
     }
 
     function buyOneCoffee() public {
-      _burn(_msgSender(), 1); //this function is inherited from the parent contract, _msgSender() is also the same thing as msg.sender but it is inherited from the parent contract
+      _burn(_msgSender(), 1 * 10 ** decimals()); //this function is inherited from the parent contract, _msgSender() is also the same thing as msg.sender but it is inherited from the parent contract
       emit coffeePurchased(_msgSender(), _msgSender());
     }
 
     function buyOneCoffeeFrom(address account) public {
-        _spendAllowance(account, _msgSender(), 1);
-        _burn(account, 1);
+        _spendAllowance(account, _msgSender(), 1 * 10 ** decimals());
+        _burn(account, 1 * 10 ** decimals());
         emit coffeePurchased(_msgSender(), account);
 
     }
